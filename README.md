@@ -1,16 +1,15 @@
-# nps-plugin-prestashop-1.6
+# Prestashop 1.6 Plugin
 
-Introducción
+## Introducción
 
 NPS se integra fácilmente a Prestashop, otorgando la posibilidad de poder configurar su medio de pago en simples pasos. En sólo cuestión de minutos su carrito de compras quedará listo para comenzar a operar en línea.
 
-
-Consideraciones
+## Availability
 
 Este paquete se encuentra certificado para la versión 1.6.0.x.
 
 
-Modos de Integración
+## Modos de Integración
 
 Para el manejo de transacciones financieras el servidor PSP soporta dos mecanismos de integración en Prestashop con el método 3 partes:
 
@@ -20,7 +19,7 @@ Para el manejo de transacciones financieras el servidor PSP soporta dos mecanism
 El método Authorize, precisa de una captura posterior desde el panel de administrador.
 El método Authorize_3p/Capture_3p actúa como PayOnline_3p donde la autorización y captura se realizan en la misma transacción.
 
-Instalación
+## Instalación
 
 **Para realizar la siguiente configuración es requisito tener instalado PrestaShop: 
 
@@ -64,7 +63,7 @@ Identificacion del Comerciante: test
 URL Servicio Web: https://implementacion.nps.com.ar/ws.php?wsdl
 Clave Secreta: mf7mw2Aal9ozRkrbYD9asZ7mGKx4t7LfmQPgSZHBg3A7nziJCrt5Q0rgLnkCu3pe
 
-Configuraciones Avanzadas
+## Configuraciones Avanzadas
 
 En esta sección se explicará cómo configurar la moneda, el país, y las cuotas.
 
