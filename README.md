@@ -4,7 +4,7 @@
 
 NPS se integra fácilmente a Prestashop, otorgando la posibilidad de poder configurar su medio de pago en simples pasos. En sólo cuestión de minutos su carrito de compras quedará listo para comenzar a operar en línea.
 
-## Availability
+## Disponibilidad
 
 Este paquete se encuentra certificado para la versión 1.6.0.x.
 
