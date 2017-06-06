@@ -1,4 +1,4 @@
-# Prestashop 1.5 Plugin
+# Prestashop 1.6 Plugin
 
 *Read this in other languages: [English](README.md), [Español](README.es.md)
 
@@ -8,7 +8,7 @@ NPS Ingenico Latam is integrated easily to Prestashop, given the posibility to c
 
 ## Availability
 
-Supported & Tested in Prestashop 1.5.0.15 to 1.5.6.2
+Supported & Tested in Prestashop versión 1.6.0.x.
 
 ## Integration Modes
 
@@ -25,7 +25,7 @@ The PayOnline_3p method acts as Authorize_3p / Capture_3p where authorization an
 
 ** To make the following configuration it is necessary to have PrestaShop installed: 
 
-Along with this documentation you will be able to download the module and integrated it to Prestashop.
+  Along with this documentation you will be able to download the module and integrated it to Prestashop.
 
 1. Extract the file NPS.Prestashop.1.6.0.x.Connector.v1.01.006.tar.gz
 
@@ -36,69 +36,70 @@ Along with this documentation you will be able to download the module and integr
 4. Enter the PrestaShop Store Manager.
 
 5. In Modules menu, select Modules:
-
-  ![1](https://cloud.githubusercontent.com/assets/24914148/25497145/fb4e84b4-2b59-11e7-855f-aa7f03ac9818.png)
+    ![1](https://cloud.githubusercontent.com/assets/24914148/25529881/65136ea0-2bfa-11e7-841f-7251dda04e76.png)
 
 6. Into categories list, Select payment platform
 
-  ![2](https://cloud.githubusercontent.com/assets/24914148/25497146/fb5a29cc-2b59-11e7-8293-a3e4babac965.png)
+    ![2](https://cloud.githubusercontent.com/assets/24914148/25529882/651736fc-2bfa-11e7-860e-ea96e1955d17.png)
 
-7. now, you can see the NPS module
+7. Now, you can see the NPS module
 
-  ![3](https://cloud.githubusercontent.com/assets/24914148/25497147/fb7b3964-2b59-11e7-8f65-052c30cca726.png)
+    ![3](https://cloud.githubusercontent.com/assets/24914148/25529883/651856f4-2bfa-11e7-8243-2ea60883ce76.png)
 
-8.	At the end of the installation you will see the following screen:
+8. At the end of the installation you will see the following screen:
 
-  ![4](https://cloud.githubusercontent.com/assets/24914148/25497148/fb80d98c-2b59-11e7-89aa-fea05c2df69c.png)
+    ![4](https://cloud.githubusercontent.com/assets/24914148/25529884/65226ec8-2bfa-11e7-9d4e-73f9c05b034d.png)
 
-9.	Configure with corresponding data:   
+9. Configure with corresponding data:   
   Payment Methodology: PayOnline_3p OR Authorize_3p / Capture   
   Complete all data with information provided by Ingenico Latam and Save.   
 
-  ![5](https://cloud.githubusercontent.com/assets/24914148/25497149/fb8f0f5c-2b59-11e7-8358-ad93fdbe80d7.png)
+    ![5](https://cloud.githubusercontent.com/assets/24914148/25529885/652b101e-2bfa-11e7-984a-dc58bf8f5883.png)
 
-  Example:    
+    Example:    
    Comercio Email: mail@mail.com       
    Identificacion del Comerciante: test        
    URL Servicio Web: https://implementacion.nps.com.ar/ws.php?wsdl     
    Clave Secreta: mf7mw2Aal9ozRkrbYD9asZ7mGKx4t7LfmQPgSZHBg3A7nziJCrt5Q0rgLnkCu3pe    
-
-
+   
 ## Advanced Settings
 
 This section will explain how to set currency, country, and installment plans.
 
-1.	Currency Settings:        
-  Select “Menu” / “Location”/ “Currency”
+1. Currency Settings:        
+     Select “Menu” / “Location”/ “Currency”
 
-  ![6](https://cloud.githubusercontent.com/assets/24914148/25497136/fb0eb6ae-2b59-11e7-87ce-b946f0fe7279.png)
+  ![6](https://cloud.githubusercontent.com/assets/24914148/25529886/654ad58e-2bfa-11e7-8bf2-e15400ba5c80.png)
 
   Here you can configure the country currency in which it will operate, for example in Argentina parameters are:    
   Argentina = ARG   ,  Pesos Argentinos = 032.        
   
   As it is created we modify it with the correct values, since by default Argentina figures like ARG instead of ARS and the currency 32 instead of 032.
   
-  ![7](https://cloud.githubusercontent.com/assets/24914148/25497135/fb0eb780-2b59-11e7-9b25-7901d5f31dec.png)
-
+  ![7](https://cloud.githubusercontent.com/assets/24914148/25529887/654e293c-2bfa-11e7-9958-643809a2b39c.png)
+  
 2. Country Settings
 
-  ![8](https://cloud.githubusercontent.com/assets/24914148/25497137/fb102322-2b59-11e7-98c6-e127ac203503.png)
+  ![8](https://cloud.githubusercontent.com/assets/24914148/25529888/655130f0-2bfa-11e7-9764-78785281a577.png)
 
   You can add or modify countries.       
   Example Modification of Country Argentina:
+
+  ![9](https://cloud.githubusercontent.com/assets/24914148/25529889/6553adbc-2bfa-11e7-90e2-ea6229c132dd.png)
   
-  ![9](https://cloud.githubusercontent.com/assets/24914148/25497138/fb12bfec-2b59-11e7-871e-bc76425b81d4.png)
-  ![10](https://cloud.githubusercontent.com/assets/24914148/25497139/fb16eeb4-2b59-11e7-98ef-f1ee0fcbeeab.png)
-  ![11](https://cloud.githubusercontent.com/assets/24914148/25497140/fb1ec968-2b59-11e7-964c-d21fbfd647b4.png)
+  ![10](https://cloud.githubusercontent.com/assets/24914148/25529875/64d71fc2-2bfa-11e7-8be3-bd03206b6dc2.png)
+  
+  ![11](https://cloud.githubusercontent.com/assets/24914148/25529876/64e08576-2bfa-11e7-974f-63483ce33ddd.png)
 
 3. Installment Settings   
-  Menú: NPS / Installments (If you can not see the settings correctly (next picture), perform step 4 and then return to step 3)
+    Menú: NPS / Installments (If you can not see the settings correctly (next picture), perform step 4 and then return to step 3)
 
-  ![12](https://cloud.githubusercontent.com/assets/24914148/25497142/fb45bb4a-2b59-11e7-9b7f-304d30e87513.png)
-  
+  ![12](https://cloud.githubusercontent.com/assets/24914148/25529877/64e3420c-2bfa-11e7-9516-0e2e07d4644b.png)
+
   The following page will be displayed:        
   (If you can not see the settings correctly (next picture), perform step 4 and then return to step 3)
-  ![13](https://cloud.githubusercontent.com/assets/24914148/25497141/fb455b28-2b59-11e7-9dba-199dc92c1b69.png)
+
+  ![13](https://cloud.githubusercontent.com/assets/24914148/25529879/64e62e54-2bfa-11e7-92cf-951002c0e872.png)
 
   By pressing "ADD NEW", you will add a new installments plan   
   installments plan settings:   
@@ -107,9 +108,8 @@ This section will explain how to set currency, country, and installment plans.
   + Enter the percentage of interest or "0" if you have no interest.  
   + Save    
         
-  ![14](https://cloud.githubusercontent.com/assets/24914148/25497143/fb484e32-2b59-11e7-9bf2-8b6b0ec3a14e.png)
+  ![14](https://cloud.githubusercontent.com/assets/24914148/25529878/64e501dc-2bfa-11e7-9708-6a4f0c475b01.png)
 
-4.	Clean Cache again.      
+4. Clean Cache again.      
     Menu: Advanced Parameters > Performance > Clean cache
-
-    ![15](https://cloud.githubusercontent.com/assets/24914148/25497144/fb4aa83a-2b59-11e7-9e76-ad61298853c9.png)
+  ![15](https://cloud.githubusercontent.com/assets/24914148/25529880/64eb2846-2bfa-11e7-92b7-5eb025939758.png)
