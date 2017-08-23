@@ -1,6 +1,6 @@
 # Prestashop 1.6 Plugin
 
-*Read this in other languages: [English](README.md), [Español](README.es.md)
+*Read this in other languages: [English](README.md), [Español](README.es.md)*
 
 ## Introduction
 
@@ -15,15 +15,15 @@ Supported & Tested in Prestashop versión 1.6.0.x.
 To handle financial transactions NPS Ingenico Latam server supports two mechanisms of integration in Prestashop with the 3 part method:     
 
 •	PayOnline_3p  
-•	Authorize_3p / Capture 
+•	Authorize_3p / Capture
 
 Authorize method requires a subsequent capture from administration panel.       
 The PayOnline_3p method acts as Authorize_3p / Capture_3p where authorization and capture are performed in the same transaction.        
 
 
-## Instalación
+## Install
 
-** To make the following configuration it is necessary to have PrestaShop installed: 
+** To make the following configuration it is necessary to have PrestaShop installed:
 
   Along with this documentation you will be able to download the module and integrated it to Prestashop.
 
@@ -61,7 +61,7 @@ The PayOnline_3p method acts as Authorize_3p / Capture_3p where authorization an
    Identificacion del Comerciante: test        
    URL Servicio Web: https://implementacion.nps.com.ar/ws.php?wsdl     
    Clave Secreta: mf7mw2Aal9ozRkrbYD9asZ7mGKx4t7LfmQPgSZHBg3A7nziJCrt5Q0rgLnkCu3pe    
-   
+
 ## Advanced Settings
 
 This section will explain how to set currency, country, and installment plans.
@@ -73,11 +73,11 @@ This section will explain how to set currency, country, and installment plans.
 
   Here you can configure the country currency in which it will operate, for example in Argentina parameters are:    
   Argentina = ARG   ,  Pesos Argentinos = 032.        
-  
+
   As it is created we modify it with the correct values, since by default Argentina figures like ARG instead of ARS and the currency 32 instead of 032.
-  
+
   ![7](https://cloud.githubusercontent.com/assets/24914148/25529887/654e293c-2bfa-11e7-9958-643809a2b39c.png)
-  
+
 2. Country Settings
 
   ![8](https://cloud.githubusercontent.com/assets/24914148/25529888/655130f0-2bfa-11e7-9764-78785281a577.png)
@@ -86,13 +86,14 @@ This section will explain how to set currency, country, and installment plans.
   Example Modification of Country Argentina:
 
   ![9](https://cloud.githubusercontent.com/assets/24914148/25529889/6553adbc-2bfa-11e7-90e2-ea6229c132dd.png)
-  
+
   ![10](https://cloud.githubusercontent.com/assets/24914148/25529875/64d71fc2-2bfa-11e7-8be3-bd03206b6dc2.png)
-  
+
   ![11](https://cloud.githubusercontent.com/assets/24914148/25529876/64e08576-2bfa-11e7-974f-63483ce33ddd.png)
 
 3. Installment Settings   
-    Menú: NPS / Installments (If you can not see the settings correctly (next picture), perform step 4 and then return to step 3)
+    Menú: NPS / Installments        
+    (If you can not see the settings correctly (next picture), perform step 4 and then return to step 3)
 
   ![12](https://cloud.githubusercontent.com/assets/24914148/25529877/64e3420c-2bfa-11e7-9516-0e2e07d4644b.png)
 
@@ -107,9 +108,14 @@ This section will explain how to set currency, country, and installment plans.
   + Enter installments quantity, example: 1   
   + Enter the percentage of interest or "0" if you have no interest.  
   + Save    
-        
+
   ![14](https://cloud.githubusercontent.com/assets/24914148/25529878/64e501dc-2bfa-11e7-9708-6a4f0c475b01.png)
 
 4. Clean Cache again.      
     Menu: Advanced Parameters > Performance > Clean cache
   ![15](https://cloud.githubusercontent.com/assets/24914148/25529880/64eb2846-2bfa-11e7-92b7-5eb025939758.png)
+
+
+  ## Managing Multiple Shops
+
+  You can read how to set up a multiple shops on PrestaShop documentation  [here](http://doc.prestashop.com/display/PS16/Managing+Multiple+Shops)

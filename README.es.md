@@ -1,6 +1,6 @@
 # Prestashop 1.6 Plugin
 
-*Read this in other languages: [English](README.md), [Español](README.es.md)
+*Read this in other languages: [English](README.md), [Español](README.es.md)*
 
 ## Introducción
 
@@ -23,7 +23,7 @@ El método PayOnline_3p actúa como Authorize_3p/Capture_3p donde se realiza la 
 
 ## Instalación
 
-**Para realizar la siguiente configuración es requisito tener instalado PrestaShop: 
+**Para realizar la siguiente configuración es requisito tener instalado PrestaShop:
 
 Junto con esta documentación usted podra descargar el módulo que se integrará a Prestashop.
 
@@ -31,7 +31,7 @@ Junto con esta documentación usted podra descargar el módulo que se integrará
 
 2.	Renombrar la carpeta admin con el nombre de la carpeta admin que está en prestashop.
 
-3.	Copiar los cuatro directorios extraídas y en el directorio raíz de prestashop. 
+3.	Copiar los cuatro directorios extraídas y en el directorio raíz de prestashop.
 
 4.	Ingresar al Administrador de tienda de PrestaShop.
 
@@ -58,7 +58,7 @@ Junto con esta documentación usted podra descargar el módulo que se integrará
 
     ![5](https://cloud.githubusercontent.com/assets/24914148/25529885/652b101e-2bfa-11e7-984a-dc58bf8f5883.png)
 
-    Ejemplo: 
+    Ejemplo:
 
     Comercio Email: mail@mail.com   
     Identificacion del Comerciante: test    
@@ -71,7 +71,7 @@ En esta sección se explicará cómo configurar la moneda, el país, y las cuota
 
 1. Configuración de Moneda:
   Seleccionar “Menú” / “Localización”/ “Moneda”
-  
+
   ![6](https://cloud.githubusercontent.com/assets/24914148/25529886/654ad58e-2bfa-11e7-8bf2-e15400ba5c80.png)
 
   Aquí se podrá configurar la moneda del país con el cuál se va a operar, por ejemplo en argentina los parámetros son :       
@@ -80,7 +80,7 @@ En esta sección se explicará cómo configurar la moneda, el país, y las cuota
   Como ya está creado lo modificamos con los valores correctos, ya que por default Argentina figura como ARG y no ARS y la moneda 32 en vez de 032.
 
   ![7](https://cloud.githubusercontent.com/assets/24914148/25529887/654e293c-2bfa-11e7-9958-643809a2b39c.png)
-  
+
 2. Configuración de Países
 
   ![8](https://cloud.githubusercontent.com/assets/24914148/25529888/655130f0-2bfa-11e7-9764-78785281a577.png)
@@ -89,9 +89,9 @@ En esta sección se explicará cómo configurar la moneda, el país, y las cuota
   Ejemplo Modificación de País Argentina:     
 
   ![9](https://cloud.githubusercontent.com/assets/24914148/25529889/6553adbc-2bfa-11e7-90e2-ea6229c132dd.png)
-  
+
   ![10](https://cloud.githubusercontent.com/assets/24914148/25529875/64d71fc2-2bfa-11e7-8be3-bd03206b6dc2.png)
-  
+
   ![11](https://cloud.githubusercontent.com/assets/24914148/25529876/64e08576-2bfa-11e7-974f-63483ce33ddd.png)
 
 3. Configuración de Cuotas
@@ -101,7 +101,7 @@ En esta sección se explicará cómo configurar la moneda, el país, y las cuota
   ![12](https://cloud.githubusercontent.com/assets/24914148/25529877/64e3420c-2bfa-11e7-9516-0e2e07d4644b.png)
 
   Se desplegará la siguiente pantalla:        
-  (En caso de no poder ver la pantalla correctamente (imagen debajo), realizar el paso 4 y luego volver al paso 3) 
+  (En caso de no poder ver la pantalla correctamente (imagen debajo), realizar el paso 4 y luego volver al paso 3)
 
   ![13](https://cloud.githubusercontent.com/assets/24914148/25529879/64e62e54-2bfa-11e7-92cf-951002c0e872.png)
 
@@ -111,7 +111,7 @@ En esta sección se explicará cómo configurar la moneda, el país, y las cuota
 
   + Seleccionan el Producto
   + Ingresan las cuotas, ejemplo 1
-  + Ingresan el porcentaje de interés o “0” si no tiene interés. 
+  + Ingresan el porcentaje de interés o “0” si no tiene interés.
   + Guardar
 
   ![14](https://cloud.githubusercontent.com/assets/24914148/25529878/64e501dc-2bfa-11e7-9708-6a4f0c475b01.png)
@@ -120,3 +120,8 @@ En esta sección se explicará cómo configurar la moneda, el país, y las cuota
     Menú: Parámetros Avanzados > Rendimiento > Vacia el caché
 
     ![15](https://cloud.githubusercontent.com/assets/24914148/25529880/64eb2846-2bfa-11e7-92b7-5eb025939758.png)
+
+
+    ## Configurar varias Tiendas
+
+    Puede leer como configurar PrestaShop con varias Tiendas en la documentación de PrestaShop [aqui](http://doc.prestashop.com/pages/viewpage.action?pageId=29655414)
