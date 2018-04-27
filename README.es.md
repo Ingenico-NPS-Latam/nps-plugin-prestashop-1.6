@@ -1,4 +1,4 @@
-# Prestashop 1.6 Plugin
+# Prestashop 1.6.1 Plugin
 
 *Read this in other languages: [English](README.md), [Español](README.es.md)*
 
