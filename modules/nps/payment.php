@@ -90,8 +90,8 @@ class NpsController extends FrontController
 			array('value' => Tools::safeOutput($currency->iso_code), 'name' => 'currency'),
 			array('value' => Tools::safeOutput($language->iso_code), 'name' => 'lng'),
 			array('value' => Tools::safeOutput($token), 'name' => 'signature'),
-			array('value' => 'http://'.htmlspecialchars($_SERVER['HTTP_HOST'], ENT_COMPAT, 'UTF-8').__PS_BASE_URI__, 'name' => 'responseUrl'),
-			array('value' => 'http://'.htmlspecialchars($_SERVER['HTTP_HOST'], ENT_COMPAT, 'UTF-8').__PS_BASE_URI__.'modules/nps/validation.php', 'name' => 'confirmationUrl'),
+			array('value' => (@$_SERVER['HTTPS'] ? 'https://': 'http://').htmlspecialchars($_SERVER['HTTP_HOST'], ENT_COMPAT, 'UTF-8').__PS_BASE_URI__, 'name' => 'responseUrl'),
+			array('value' => (@$_SERVER['HTTPS'] ? 'https://': 'http://').htmlspecialchars($_SERVER['HTTP_HOST'], ENT_COMPAT, 'UTF-8').__PS_BASE_URI__.'modules/nps/validation.php', 'name' => 'confirmationUrl'),
 		);
 
 		if (Configuration::get('NPS_ACCOUNT_ID') != 0)

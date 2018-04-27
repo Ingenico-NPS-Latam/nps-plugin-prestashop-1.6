@@ -8,7 +8,7 @@ NPS se integra fácilmente a Prestashop, otorgando la posibilidad de poder confi
 
 ## Disponibilidad
 
-Este paquete se encuentra certificado para la versión 1.6.0.x.
+Este paquete se encuentra certificado para la versión 1.6.1.x.
 
 
 ## Modos de Integración
@@ -27,7 +27,7 @@ El método PayOnline_3p actúa como Authorize_3p/Capture_3p donde se realiza la 
 
 Junto con esta documentación usted podra descargar el módulo que se integrará a Prestashop.
 
-1.	Extraer el archivo NPS.Prestashop.1.6.0.x.Connector.v1.01.006.tar.gz
+1.	Extraer el archivo NPS.Prestashop.1.6.1.x.Connector.v1.01.006.tar.gz
 
 2.	Renombrar la carpeta admin con el nombre de la carpeta admin que está en prestashop.
 

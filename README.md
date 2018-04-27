@@ -8,7 +8,7 @@ NPS Ingenico Latam is integrated easily to Prestashop, given the posibility to c
 
 ## Availability
 
-Supported & Tested in Prestashop versión 1.6.0.x.
+Supported & Tested in Prestashop versión 1.6.1.x.
 
 ## Integration Modes
 
@@ -27,7 +27,7 @@ The PayOnline_3p method acts as Authorize_3p / Capture_3p where authorization an
 
   Along with this documentation you will be able to download the module and integrated it to Prestashop.
 
-1. Extract the file NPS.Prestashop.1.6.0.x.Connector.v1.01.006.tar.gz
+1. Extract the file NPS.Prestashop.1.6.1.x.Connector.v1.01.006.tar.gz
 
 2. Rename the admin folder with the same name of the admin folder that is in prestashop.
 
