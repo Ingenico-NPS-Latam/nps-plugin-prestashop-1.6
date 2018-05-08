@@ -597,9 +597,7 @@ class Nps extends PaymentModule
     }elseif(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
       $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
     }
-    if (filter_var($ip, FILTER_VALIDATE_IP)) {
-      return $ip;
-    }
+    return strlen($ip) >= 7 ? $ip : null;
   }  
   
   public static function formatDeviceToPspDevice($device) {
