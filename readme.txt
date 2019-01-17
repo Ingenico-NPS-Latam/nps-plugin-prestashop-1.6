@@ -1,5 +1,5 @@
 #Requeriments:
-Prestashop version 1.6.1.0 or later
+Prestashop version 1.6.0.0 or later
 
 #How to install:
 
